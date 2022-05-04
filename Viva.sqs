@@ -1,0 +1,11 @@
+civ2 setbehaviour "safe"
+civ2 switchmove "effectstandsalute"
+~2
+TitleText ["Viva La Resistance","PLAIN DOWN",3]
+civ2 switchmove "effectstandtalk"
+~2
+TitleText ["Thank you, thank you!","PLAIN DOWN",3]
+~5
+civ2 switchmove "effectstandtalkEND"
+
+

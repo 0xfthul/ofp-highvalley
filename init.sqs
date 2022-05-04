@@ -1,0 +1,25 @@
+harry setbehaviour "safe"
+harry switchmove "effectstandtalk"
+off setbehaviour "safe"
+off2 setbehaviour "safe"
+Medic setbehaviour "safe"
+Medic switchmove "CombatDeadVer2"
+Russ setbehaviour "combat"; Russ setcombatmode "yellow"; Russ switchmove "CombatToCrouch"; Russ setunitpos "up"; Russ switchmove "CombatToCrouch";
+foxtrotsquad SetGroupID ["foxtrot","GroupColor1"]
+
+; initialize papabear used in revive script notifications
+PapaBear = [Resistance, "HQ"];
+; initialize kegetys spectator script
+[] exec ({Kegetys\init.sqs})
+
+; play intro if option selected
+? param2 == 0 : exit
+
+titleCut ["","BLACK IN", 4]
+~3
+TitleText ["The Colonel said to meet the contact at the church","PLAIN DOWN"]
+~4
+TitleText ["I wonder what hes got for us?","PLAIN DOWN"]
+~4
+TitleText ["Lets check it out.","PLAIN DOWN"]
+

@@ -1,0 +1,30 @@
+par3 = param1;
+ReviveListTmp = [];
+ReviveList = ["man1","man2","man3","man4","man5","man6","man7","man8","man9","man10","man11","man12"];
+Deathmap = 1;
+CustomControl = 5;
+_Xn = count ReviveList;
+_nStart = 0;
+#1
+_unitL = call (ReviveList select _nStart);
+if (Alive _unitL) then {ReviveListTmp = ReviveListTmp + [(ReviveList select _nStart)];};
+~ 0.01
+if (_NStart >= _Xn) then {goto "2"};
+_NStart = _NStart + 1;
+goto "1";
+#2
+ReviveList = ReviveListTmp;
+;spawns available
+respawnman1 = 0;
+respawnman2 = 0;
+respawnman3 = 0;
+respawnman4 = 0;
+respawnman5 = 0;
+respawnman6 = 0;
+respawnman7 = 0;
+respawnman8 = 0;
+respawnman9 = 0;
+respawnman10 = 0;
+respawnman11 = 0;
+respawnman12 = 0;
+exit;

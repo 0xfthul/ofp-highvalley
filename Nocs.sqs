@@ -1,0 +1,37 @@
+_cam = "camera" camcreate [0,0,0]
+_cam cameraeffect ["internal", "back"]
+
+cutRSC ["Binocular", "Plain Down"]
+
+_cam camsettarget Shilka
+_cam camsetrelpos [0,150,0]
+_camera camSetFOV 0
+_cam camcommit 0
+@camcommitted _cam
+
+TitleText ["Theres the second Fortress.","PLAIN"]
+Leader FoxtrotSquad sideChat "Theres the base."
+~2
+Leader FoxtrotSquad sideChat "Looks like some armor and artillery."
+TitleText ["Looks like some armor and artillery.","PLAIN"]
+
+~4
+
+_cam camsettarget Shilka
+_cam camsetrelpos [-5,20,1]
+_camera camSetFOV 0
+_cam camcommit 5
+@camcommitted _cam
+
+TitleText ["Defenses Look weakest from the NorthWest.","PLAIN"]
+Leader FoxtrotSquad sideChat "Defenses look weakest from the NorthWest."
+~5
+
+TitleText ["OK, LETS MOVE!!!","PLAIN"]
+Leader FoxtrotSquad sideChat "OK, Lets Move!!!."
+~2
+
+titleCut ["","BLACK IN", 2]
+cutRSC ["Default", "Plain Down"]
+_cam cameraeffect ["terminate", "back"]
+camdestroy _cam

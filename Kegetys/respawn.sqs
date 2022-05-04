@@ -1,0 +1,173 @@
+_string = _this
+_obj = call format ["%1", _string]
+_leadr = leader _obj
+_body = call format ["%1", _string]
+~.05
+#skipv
+~.05
+_pos = getPos _body
+_pos = [_pos select 0, _pos select 1, 0]
+~.05
+
+_HLimit = 2.4
+
+_sea_level = "emptyDetector" camCreate [0,0,0]
+_TempPos = "PipeBomb" CamCreate [0, 0, 0]
+
+_TempPos setPos [_pos select 0,_pos select 1,_pos select 2] 
+unit_height_asl = -((getpos _TempPos) select 2) -((getpos _sea_level) select 2)
+?unit_height_asl < _HLimit : goto "findland"
+goto "NoWater"
+
+#findland
+_idir = 0
+_idis = 10
+
+#FLoop
+_NextBodyX = (_pos Select 0) + ((Sin _idir) * _idis)
+_NextBodyY = (_pos Select 1) + ((Cos _idir) * _idis)
+
+_TempPos SetPos [_NextBodyX, _NextBodyY, 0]
+unit_height_asl = -((getpos _TempPos) select 2) - ((getpos _sea_level) select 2)
+?(unit_height_asl > _HLimit): goto "FLand"
+_idir = _idir + 20
+?_idir > 350: _idis = _idis + 10
+?_idir > 350: _idir = 0
+?_dis > 3000: goto "Dend1"
+goto "FLoop"
+
+#FLand
+_pos = [(getPos _TempPos)select 0, (getPos _TempPos)select 1, 0]
+;titletext[format ["Moved to Nearest Land !"], "Plain down"]
+
+#Dend2
+camDestroy _sea_level
+camDestroy _TempPos
+goto "NoWater"
+
+#Dend1
+titletext[format ["Too Far Out At Sea !"], "Plain down"]
+camDestroy _sea_level
+camDestroy _TempPos
+
+#NoWater
+_bodybag = "HeliHEmpty" createVehicle _pos
+_dir = getDir _body
+_dir = _dir - 90
+_string setMarkerType "Marker"
+_string setMarkerPos getPos _bodybag
+?_body == player : _bodybag exec "Kegetys\cam.sqs"
+~3
+#notalive
+~1
+_obj = call format ["%1", _string]
+?not alive _obj : goto "notalive"
+?not local _body : goto "list"
+?_obj == player: _string setMarkerColor "ColorGreen" 
+enableRadio false;
+
+_respawn = call format ["respawn%1", _string]
+_respawn = _respawn + 1
+call format ["respawn%1 = _respawn", _string]
+
+?_respawn > par3 : exit
+
+"_obj removeMagazine _x" forEach magazines _obj
+"_obj removeWeapon _x" forEach weapons _obj
+"_obj addMagazine _x" forEach magazines _body
+"_obj addWeapon _x" forEach weapons _body
+_obj selectWeapon primaryWeapon _obj
+;;;
+deleteVehicle _body
+
+~.05
+_body = "Body" createVehicle _pos
+_body setDir _dir
+_body setpos [_pos select 0, _pos select 1, 0]
+
+_ai = objNull
+
+_maxt = 0
+_ClosestUnits = []
+_AIUnits = []
+_Closest6 = []
+_PG = 0
+_PassGo = 0
+_pos = getpos _body
+
+#nearest
+_ai = objNull
+_i = 0
+_Num1 = 0
+
+_ReviveList = ReviveList
+
+~.5
+
+ReviveL = []
+
+_Num1 = (count _ReviveList) - 1
+
+
+#LoopCP1
+	?_i > _Num1: _i = 0; goto "CheckPass1"
+~.3
+	_unitn = call (_ReviveList select _i)
+	?(not isNull _unitn): _ReviveL = _ReviveL + [_unitn]
+~.3
+	_i = _i + 1
+goto "LoopCP1"
+
+#checkpass1
+
+#LoopCP2
+	?_i > _Num1: _i = 0; goto "CheckPass2"
+~.3
+	_unitn = call (_ReviveList select _i)
+	?_unitn distance _body < 2.5 : _ClosestBitch = _unitn; _PG = 1; goto "CheckPass2"
+~.3
+	_i = _i + 1
+goto "LoopCP2"
+
+#checkpass2
+?_PG == 1 : _PG = 0; _PassGo = 0; _soldier = _ClosestBitch; goto "BringAlive"
+goto "nearest"
+
+#BringAlive
+_soldier = _soldier
+~.05
+_maxt = 0
+_obj = call format ["%1", _string]
+?not alive _obj : exit
+_soldier doWatch _obj
+_obj setCaptive true
+~.01
+?local _obj && _obj == player : _RevivedText = name _ClosestBitch + " has revived you."
+?local _obj && _obj == player : [_RevivedText] exec "Kegetys\respawnDia1.sqs"
+_obj setPos _pos
+_obj setPos getpos _body
+_obj setDir _dir
+deletevehicle _body
+deletevehicle _bodybag
+_obj switchMove "LyingToTreatedLying"
+~3
+_soldier playMove "CombatToMedic"
+~1
+_obj setCaptive false
+
+#list
+~3
+_obj = call format ["%1", _string]
+?not (_obj in list playeralive) : goto "list"
+~.3
+enableRadio true;
+_string setMarkerColor "ColorRed" 
+_string setMarkerType "Empty"
+~1
+_obj switchMove "LyingToCombat"
+
+
+
+exit
+
+
