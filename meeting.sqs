@@ -2,6 +2,7 @@
 _cam = "camera" camcreate [0,0,0]
 _cam cameraeffect ["internal", "back"]
 
+enableRadio false	
 Contact dowatch man1
 man1 dowatch Contact
 contact switchmove "effectstandtalk"
@@ -13,108 +14,102 @@ _camera camSetFOV 0.700
 _cam camcommit 0
 @camcommitted _cam
 
-TitleText ["I've been Expecting you.","PLAIN DOWN"]
-
+TitleText ["I've been expecting you","PLAIN DOWN"]
 ~3
 
 TitleText ["Glad to see someone without a hammer and anvil on their uniform.","PLAIN DOWN"]
+~4
 
-~3
+TitleText ["Anyways, the reason your here...","PLAIN DOWN"]
+~2.8
 
-TitleText ["Anyways, the reason your here.....","PLAIN DOWN"]
 
-_cam camsettarget contact
-_cam camsetrelpos [0, 2, 3]
-_camera camSetFOV 0.5
-_cam camcommit 4
-@camcommitted _cam
-
-TitleText ["The Russians must be stopped!!!","PLAIN DOWN"]
-
-~1.5
+TitleText ["The Russians must be stopped!","PLAIN DOWN"]
+contact setMimic "agresive"
+~.9
 
 contact switchmove "StandStrokeFist"
+_cam camsettarget contact
+_cam camsetrelpos [0, 2, 1.10]
+_camera camSetFOV 0.2
+_cam camcommit 0.1
+~1.1
 
-~1.5
-
-contact switchmove "effectstandtalkend"
+contact playMove "effectstandtalkend"
+contact setMimic "cynic"
 
 _cam camsettarget contact
 _cam camsetrelpos [-1, 4, 1.9]
-_cam camcommit 4
-@camcommitted _cam
+_cam camcommit 1
 
 contact switchmove "EffectStandMove"
-
-TitleText ["I know, what have you got for us?.","PLAIN DOWN"]
+~2
 
 _cam camsettarget man1
 _cam camsetrelpos [0, 2, 0.75]
 _camera camSetFOV 0.286
-_cam camcommit 3.5
+_cam camcommit 1.7
 @camcommitted _cam
-
 contact switchmove "effectstandtalk"
 
-TitleText ["You said you had some information..","PLAIN DOWN"]
+TitleText ["I know, what have you got for us?","PLAIN DOWN"]
+~4.6
 
-~2.5
-
-TitleText ["Yes, yes I do","PLAIN DOWN"]
+TitleText ["You said you had some information...","PLAIN DOWN"]
+~2
 
 _cam camsettarget Contact
 _cam camsetrelpos [-1,4,1.49]
 _camera camSetFOV 0.700
-_cam camcommit 3.5
+_cam camcommit 2
 @camcommitted _cam
 
 TitleText ["Yes, yes I do","PLAIN DOWN"]
+~3
 
-~2
-
-
-TitleText ["The Russians Have total control of the Airways and travel through the valley North East of here","PLAIN DOWN"]
-
-~2.5
+TitleText ["The Russians have total control of the Airways and travel through the valley North East of here","PLAIN DOWN"]
+~6.2
 
 TitleText ["You will find them on the two highest peaks","PLAIN DOWN"]
-
 ~2.5
 
 TitleText ["From their mountain Fortresses they command a view of the country for miles around","PLAIN DOWN"]
+~6
+TitleText [" ","PLAIN DOWN"]
 
 _cam camsettarget man1
 _cam camsetrelpos [0, 4, 0.75]
 _camera camSetFOV 0.286
-_cam camcommit 9
+_cam camcommit 3
 @camcommitted _cam
 
-contact switchmove "FXstandrotatetable"
-
-~3
-
 TitleText ["Anything else?","PLAIN DOWN"]
-
 ~2
+
+_cam camsettarget Contact
+_cam camsetrelpos [-1,4,1.49]
+_camera camSetFOV 0.700
+_cam camcommit 0
 
 TitleText ["Aside from the fortresses they are heavily guarded by Shilkas and M2 turrets,","PLAIN DOWN"]
-
-~2
+~4.2
 
 _cam camsettarget man1
 _cam camsetrelpos [0, 3, 1.75]
-_cam camcommit 5
+_cam camcommit 3
 @camcommitted _cam
 
 TitleText ["Hmm might be a problem but what choice do we have?","PLAIN DOWN"]
+~5.5
 
 5 fadeMusic 0
-
-~5.5
 
 titleCut ["","BLACK IN", 2]
 0 fadeMusic 1
 PlayMusic ""
+man1 switchmove ""
+TitleText [" ","PLAIN DOWN"]
+enableRadio true
 
 _cam cameraeffect ["terminate", "back"]
 camdestroy _cam

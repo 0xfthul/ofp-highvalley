@@ -12,6 +12,7 @@ PapaBear = [Resistance, "HQ"];
 ; initialize kegetys spectator script
 [] exec ({Kegetys\init.sqs})
 
+
 ; play intro if option selected
 ? param2 == 0 : exit
 
@@ -19,7 +20,7 @@ titleCut ["","BLACK IN", 4]
 ~3
 TitleText ["The Colonel said to meet the contact at the church","PLAIN DOWN"]
 ~4
-TitleText ["I wonder what hes got for us?","PLAIN DOWN"]
+TitleText ["I wonder what he's got for us?","PLAIN DOWN"]
 ~4
-TitleText ["Lets check it out.","PLAIN DOWN"]
+TitleText ["Let's check it out.","PLAIN DOWN"]
 
