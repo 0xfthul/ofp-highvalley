@@ -1,0 +1,4 @@
+_unit = _this select 0
+~40
+deletevehicle _unit
+

@@ -1,0 +1,7049 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"editorupdate102",
+		"BAS_OPFOR",
+		"bas_deraJ",
+		"bas_weap",
+		"bas_mh47185",
+		"Flags1",
+		"bas_o",
+		"jam_magazines",
+		"bas_soar185",
+		"bis_resistance",
+		"bas_mh6185",
+		"BAS_MAH60",
+		"HMMWV"
+	};
+	addOnsAuto[]=
+	{
+		"BAS_OPFOR",
+		"bas_deraJ",
+		"bas_mh47185",
+		"bas_weap",
+		"HMMWV",
+		"EditorUpdate102",
+		"bas_mh6185",
+		"BAS_MAH60"
+	};
+	randomSeed=1900035;
+	class Intel
+	{
+		briefingName="[BAS]co18_Return_to_Mogadish";
+		briefingDescription="Black Hawk Down - part 2.";
+		resistanceWest=0.000000;
+		resistanceEast=1.000000;
+		startWeather=0.000000;
+		forecastWeather=0.000000;
+		month=6;
+		day=1;
+		hour=12;
+		minute=0;
+	};
+	class Groups
+	{
+		items=68;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21461.572266,6.459169,15320.460938};
+					azimut=210.000000;
+					id=27;
+					side="EAST";
+					vehicle="BAS_DShKA";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21399.554688,6.480000,14901.394531};
+					azimut=270.000000;
+					id=42;
+					side="EAST";
+					vehicle="BAS_DShKA";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={19685.578125,6.480000,14788.087891};
+					azimut=190.000000;
+					age="120 MIN";
+					id=49;
+					side="WEST";
+					vehicle="BAS_JRangerOfficerDES";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					text="p1";
+					init="DELTA = group this";
+				};
+				class Item1
+				{
+					position[]={19688.712891,6.480000,14789.307617};
+					azimut=190.000000;
+					age="120 MIN";
+					id=50;
+					side="WEST";
+					vehicle="BAS_JRangerSniperDES";
+					player="PLAY CDG";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p2";
+					init="DELTA = group this";
+				};
+				class Item2
+				{
+					position[]={19687.927734,6.480000,14789.328125};
+					azimut=190.000000;
+					age="120 MIN";
+					id=51;
+					side="WEST";
+					vehicle="BAS_JRangerMGunnerDES";
+					player="PLAY CDG";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p3";
+					init="DELTA = group this";
+				};
+				class Item3
+				{
+					position[]={19687.105469,6.480000,14789.364258};
+					azimut=190.000000;
+					special="FLY";
+					age="120 MIN";
+					id=17;
+					side="WEST";
+					vehicle="BAS_JRangerMGunnerDES";
+					player="PLAY CDG";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p4";
+					init="DELTA = group this";
+				};
+				class Item4
+				{
+					position[]={19685.431641,6.480000,14789.347656};
+					azimut=190.000000;
+					age="120 MIN";
+					id=52;
+					side="WEST";
+					vehicle="BAS_JRangerMKDES";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p6";
+				};
+				class Item5
+				{
+					position[]={19686.273438,6.480000,14789.323242};
+					azimut=190.000000;
+					age="120 MIN";
+					id=53;
+					side="WEST";
+					vehicle="BAS_JRangerSniperDES";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p5";
+					init="DELTA = group this";
+				};
+				class Item6
+				{
+					position[]={19684.544922,6.480000,14789.315430};
+					azimut=190.000000;
+					age="120 MIN";
+					id=54;
+					side="WEST";
+					vehicle="BAS_JRangerGLDES";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p7";
+					init="DELTA = group this";
+				};
+				class Item7
+				{
+					position[]={19683.779297,6.480000,14789.330078};
+					azimut=190.000000;
+					age="120 MIN";
+					id=55;
+					side="WEST";
+					vehicle="BAS_JRangerMGunnerDES";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p8";
+					init="DELTA = group this";
+				};
+				class Item8
+				{
+					position[]={19682.916016,6.480000,14789.276367};
+					azimut=190.000000;
+					age="120 MIN";
+					id=56;
+					side="WEST";
+					vehicle="BAS_JRangerMGunnerDES";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p9";
+					init="DELTA = group this";
+				};
+				class Item9
+				{
+					position[]={19682.113281,6.480000,14789.234375};
+					azimut=190.000000;
+					age="120 MIN";
+					id=57;
+					side="WEST";
+					vehicle="BAS_JRangerSniperDES";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="MAJOR";
+					skill=1.000000;
+					text="p10";
+					init="DELTA = group this";
+				};
+			};
+		};
+		class Item3
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21009.833984,6.480000,15480.301758};
+					azimut=120.000000;
+					special="NONE";
+					id=58;
+					side="EAST";
+					vehicle="BAS_DShKA";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+					text="SN160";
+				};
+			};
+		};
+		class Item4
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21444.845703,35.659264,14946.377930};
+					azimut=270.000000;
+					special="NONE";
+					age="120 MIN";
+					id=118;
+					side="CIV";
+					vehicle="Civilian";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					text="j1";
+					init="this setCaptive true; this setpos [getpos This select 0,getpos this select 1,1];";
+				};
+			};
+		};
+		class Item5
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21492.759766,6.403032,15316.270508};
+					azimut=210.000000;
+					id=119;
+					side="GUER";
+					vehicle="BAS_GMilitiaAKMHD";
+					leader=1;
+					rank="COLONEL";
+					skill=0.993912;
+					text="l";
+				};
+			};
+		};
+		class Item6
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21398.384766,6.480000,14990.250977};
+					azimut=235.000000;
+					id=136;
+					side="EAST";
+					vehicle="BAS_AZU23";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item7
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21431.046875,6.480000,14795.335938};
+					azimut=185.000000;
+					id=137;
+					side="EAST";
+					vehicle="BAS_AZU23";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item8
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21351.417969,6.480000,14888.219727};
+					azimut=260.000000;
+					id=138;
+					side="EAST";
+					vehicle="BAS_AZU23";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item9
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21399.191406,6.480000,14878.403320};
+					azimut=270.000000;
+					id=139;
+					side="EAST";
+					vehicle="BAS_DShKA";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20643.410156,6.480000,14829.555664};
+					azimut=235.000000;
+					id=146;
+					side="EAST";
+					vehicle="BAS_AZU23";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20889.802734,6.480000,14746.490234};
+					azimut=300.000000;
+					special="NONE";
+					id=147;
+					side="EAST";
+					vehicle="BAS_AZU23";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21580.457031,5.481683,14245.054688};
+					azimut=200.000000;
+					id=148;
+					side="EAST";
+					vehicle="BAS_AZU23";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21585.121094,5.652099,14107.210938};
+					azimut=200.000000;
+					id=149;
+					side="EAST";
+					vehicle="BAS_AZU23";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={20918.392578,6.480000,15855.446289};
+					azimut=230.000000;
+					id=158;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20919.138672,6.480000,15856.527344};
+					azimut=220.000000;
+					id=159;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=0.333333;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20921.757813,6.480000,15858.640625};
+					azimut=230.000000;
+					id=160;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20920.027344,6.480000,15857.328125};
+					azimut=255.000000;
+					id=161;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20920.927734,6.480000,15857.951172};
+					azimut=225.000000;
+					id=162;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20923.357422,6.480000,15854.538086};
+					azimut=260.000000;
+					id=163;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20920.943359,6.480000,15855.032227};
+					azimut=215.000000;
+					id=310;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item7
+				{
+					position[]={20919.845703,6.480000,15855.194336};
+					azimut=230.000000;
+					id=311;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item8
+				{
+					position[]={20922.169922,6.480000,15854.791016};
+					azimut=225.000000;
+					id=312;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={20916.490234,6.480000,15855.000000};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp7==7";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20892.123047,6.480000,15805.600586};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20919.560547,6.480000,15668.954102};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={20916.480469,6.480000,15855.036133};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={20477.275391,6.480000,14762.449219};
+					id=164;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20476.164063,6.480000,14760.583008};
+					id=165;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20480.074219,6.480000,14756.662109};
+					id=167;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20474.361328,6.480000,14756.884766};
+					id=168;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20475.185547,6.480000,14758.821289};
+					id=169;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20478.339844,6.480000,14760.356445};
+					id=170;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20479.203125,6.480000,14758.652344};
+					id=166;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={20477.310547,6.480000,14763.623047};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp1==1";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20464.552734,6.480000,14786.246094};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20373.750000,6.480000,14786.551758};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={20477.277344,6.480000,14763.583008};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21445.736328,6.480000,14741.012695};
+					azimut=180.000000;
+					special="NONE";
+					id=171;
+					side="EAST";
+					vehicle="BAS_DShKA";
+					leader=1;
+					lock="UNLOCKED";
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={20464.728516,6.480000,14845.083984};
+					azimut=180.000000;
+					id=182;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20465.660156,6.480000,14846.097656};
+					azimut=185.000000;
+					id=183;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20465.392578,6.480000,14845.759766};
+					azimut=180.000000;
+					id=184;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20464.429688,6.480000,14845.514648};
+					azimut=180.000000;
+					id=185;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20465.021484,6.480000,14845.336914};
+					azimut=180.000000;
+					id=186;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20463.726563,6.480000,14846.423828};
+					azimut=180.000000;
+					id=187;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20464.072266,6.480000,14845.923828};
+					azimut=180.000000;
+					id=188;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={20464.664063,6.480000,14843.897461};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp1==1";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20452.724609,6.480000,14814.019531};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20381.048828,6.480000,14786.702148};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={20464.667969,6.480000,14843.954102};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={20680.134766,6.480000,14891.041016};
+					azimut=275.000000;
+					id=189;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20682.994141,6.480000,14892.154297};
+					azimut=265.000000;
+					id=190;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=0.333333;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20681.544922,6.480000,14891.679688};
+					azimut=270.000000;
+					id=191;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20683.064453,6.480000,14889.782227};
+					azimut=270.000000;
+					id=192;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=0.333333;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20684.507813,6.480000,14892.469727};
+					azimut=280.000000;
+					id=193;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="CAPTAIN";
+					skill=0.200000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20684.541016,6.480000,14889.306641};
+					azimut=270.000000;
+					id=194;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20681.615234,6.480000,14890.255859};
+					azimut=265.000000;
+					id=195;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={20678.296875,6.480000,14891.164063};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp1==1";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20517.542969,6.480000,14805.811523};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20407.433594,6.480000,14788.226563};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={20678.310547,6.480000,14891.201172};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item19
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={20905.824219,6.480000,14682.887695};
+					azimut=25.000000;
+					id=196;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20903.722656,6.480000,14682.301758};
+					azimut=30.000000;
+					id=197;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20901.179688,6.480000,14681.258789};
+					azimut=30.000000;
+					id=198;
+					side="EAST";
+					vehicle="BAS_RebelSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20902.431641,6.480000,14681.698242};
+					azimut=35.000000;
+					id=199;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20903.255859,6.480000,14678.857422};
+					azimut=40.000000;
+					id=294;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20905.466797,6.480000,14680.998047};
+					azimut=35.000000;
+					id=295;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20904.439453,6.480000,14679.609375};
+					azimut=40.000000;
+					id=296;
+					side="EAST";
+					vehicle="BAS_MilitiaRPG";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={20907.468750,6.480000,14684.286133};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp2==2";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20836.433594,6.480000,14787.351563};
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20790.457031,6.480000,14791.087891};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={20907.460938,6.480000,14684.282227};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21272.953125,6.480000,14816.951172};
+					id=200;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21276.712891,6.480000,14814.949219};
+					id=201;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21270.554688,6.480000,14815.581055};
+					id=202;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21272.056641,6.480000,14815.847656};
+					id=203;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21275.244141,6.480000,14815.530273};
+					id=204;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21273.917969,6.480000,14815.751953};
+					id=297;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21269.232422,6.480000,14815.129883};
+					id=298;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21272.839844,6.480000,14818.652344};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp2==2";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20812.375000,6.480000,14786.231445};
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21305.978516,6.480000,14845.646484};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21272.759766,6.480000,14818.621094};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={20899.695313,6.480000,14929.455078};
+					azimut=275.000000;
+					id=205;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20901.052734,6.480000,14930.198242};
+					azimut=270.000000;
+					id=206;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20902.695313,6.480000,14930.200195};
+					azimut=275.000000;
+					id=207;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20901.173828,6.480000,14928.299805};
+					azimut=275.000000;
+					id=208;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20904.505859,6.480000,14930.260742};
+					azimut=285.000000;
+					id=209;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20902.826172,6.480000,14928.121094};
+					azimut=275.000000;
+					id=210;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20904.542969,6.480000,14928.060547};
+					azimut=260.000000;
+					id=211;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={20895.335938,6.480000,14929.511719};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp2==2";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20794.933594,6.480000,14785.447266};
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20893.884766,6.480000,14759.934570};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={20895.363281,6.480000,14929.503906};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21077.357422,6.480000,15013.523438};
+					azimut=85.000000;
+					id=212;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21074.175781,6.480000,15012.515625};
+					azimut=270.000000;
+					id=213;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21075.394531,6.480000,15012.513672};
+					azimut=85.000000;
+					id=214;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21076.498047,6.480000,15012.887695};
+					azimut=85.000000;
+					id=215;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21075.257813,6.480000,15014.256836};
+					azimut=90.000000;
+					id=216;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21076.539063,6.480000,15014.218750};
+					azimut=85.000000;
+					id=302;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21074.136719,6.480000,15014.315430};
+					azimut=275.000000;
+					id=303;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21079.357422,6.480000,15013.439453};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp3==3";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21145.544922,6.480000,14997.352539};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21361.531250,6.480000,14863.262695};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21079.347656,6.480000,15013.442383};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21495.875000,5.350830,15134.523438};
+					azimut=145.000000;
+					id=217;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21496.296875,5.347422,15136.324219};
+					azimut=150.000000;
+					id=218;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21493.031250,5.420399,15135.370117};
+					azimut=150.000000;
+					id=219;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21493.906250,5.399346,15135.205078};
+					azimut=160.000000;
+					id=220;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21496.091797,5.349556,15135.577148};
+					azimut=155.000000;
+					id=221;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21494.779297,5.378181,15134.999023};
+					azimut=155.000000;
+					id=304;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21496.201172,5.353000,15137.249023};
+					azimut=145.000000;
+					id=305;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21496.576172,5.330748,15133.506836};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp3==3";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21500.248047,5.183366,15118.038086};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21359.630859,6.480000,14875.874023};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21496.574219,5.330783,15133.507813};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item24
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21298.619141,6.480000,14691.853516};
+					azimut=80.000000;
+					id=222;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21293.234375,6.480000,14687.830078};
+					azimut=60.000000;
+					id=223;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21295.353516,6.480000,14695.058594};
+					azimut=75.000000;
+					id=224;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21296.916016,6.480000,14693.779297};
+					azimut=80.000000;
+					id=225;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21295.265625,6.480000,14688.597656};
+					azimut=60.000000;
+					id=226;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21293.718750,6.480000,14695.992188};
+					azimut=85.000000;
+					id=313;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21296.990234,6.480000,14690.654297};
+					azimut=75.000000;
+					id=314;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21301.203125,6.480000,14691.896484};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp3==3";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21311.119141,6.480000,14842.682617};
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21377.851563,6.480000,14871.450195};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21301.181641,6.480000,14691.841797};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21468.435547,6.081789,14855.181641};
+					azimut=180.000000;
+					id=227;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21485.261719,5.718350,14856.908203};
+					azimut=185.000000;
+					id=228;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21482.402344,5.780116,14855.333984};
+					azimut=185.000000;
+					id=229;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21465.972656,6.134985,14857.432617};
+					azimut=180.000000;
+					id=230;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21475.154297,5.936671,14850.721680};
+					azimut=180.000000;
+					id=299;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21479.126953,5.850879,14853.317383};
+					azimut=185.000000;
+					id=300;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21471.298828,6.019958,14853.418945};
+					azimut=185.000000;
+					id=301;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21473.832031,5.965246,14844.229492};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp3==3";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21463.324219,6.192202,14813.172852};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21278.404297,6.480000,14837.874023};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21473.828125,5.965312,14844.477539};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item26
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21374.031250,6.480000,13811.802734};
+					azimut=215.000000;
+					id=231;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21373.601563,6.480000,13814.271484};
+					azimut=210.000000;
+					id=232;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21377.103516,6.480000,13812.589844};
+					azimut=225.000000;
+					id=233;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21378.457031,6.480000,13812.978516};
+					azimut=225.000000;
+					id=319;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21373.519531,6.480000,13813.117188};
+					azimut=230.000000;
+					id=320;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21373.763672,6.480000,13815.741211};
+					azimut=245.000000;
+					id=321;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21375.613281,6.480000,13812.307617};
+					azimut=215.000000;
+					id=322;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21373.439453,6.480000,13809.582031};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp4==4";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21338.591797,6.432890,13643.457031};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21157.849609,6.480000,13579.679688};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21373.423828,6.480000,13809.541016};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item27
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21241.261719,6.480000,13984.338867};
+					id=234;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					rank="SERGEANT";
+					skill=0.466667;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21248.505859,6.480000,13981.949219};
+					azimut=85.000000;
+					id=235;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21246.029297,6.480000,13980.340820};
+					azimut=100.000000;
+					id=236;
+					side="EAST";
+					vehicle="BAS_RebelSoldier4";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21248.621094,6.480000,13983.958984};
+					azimut=70.000000;
+					id=237;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21247.253906,6.480000,13981.068359};
+					azimut=90.000000;
+					id=238;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21250.128906,6.480000,13982.873047};
+					azimut=85.000000;
+					id=239;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21247.140625,6.480000,13985.166016};
+					azimut=85.000000;
+					id=240;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21254.298828,6.480000,13982.859375};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp4==4";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21333.621094,6.480000,13976.896484};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21339.539063,6.480000,13682.635742};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21333.613281,6.480000,13976.875977};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={21549.152344,5.592516,13951.531250};
+					azimut=220.000000;
+					id=241;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21549.611328,5.572790,13957.897461};
+					azimut=210.000000;
+					id=242;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21552.341797,5.498847,13952.953125};
+					azimut=205.000000;
+					id=243;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21549.212891,5.582453,13956.511719};
+					azimut=225.000000;
+					id=244;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21548.937500,5.592969,13953.430664};
+					azimut=220.000000;
+					id=245;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21553.832031,5.449903,13953.310547};
+					azimut=220.000000;
+					id=246;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21549.015625,5.588490,13955.125000};
+					azimut=220.000000;
+					id=316;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item7
+				{
+					position[]={21550.628906,5.555635,13952.220703};
+					azimut=210.000000;
+					id=317;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item8
+				{
+					position[]={21555.257813,5.403178,13953.615234};
+					azimut=225.000000;
+					id=318;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21547.429688,5.639054,13948.791992};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp4==4";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21343.007813,6.480000,13732.605469};
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21303.500000,6.454808,13604.907227};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21547.408203,5.640038,13948.747070};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21475.355469,6.374682,14542.201172};
+					azimut=85.000000;
+					id=247;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21472.376953,6.388590,14543.971680};
+					azimut=75.000000;
+					id=248;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21473.466797,6.383910,14543.550781};
+					azimut=75.000000;
+					id=249;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21473.968750,6.375794,14540.044922};
+					azimut=65.000000;
+					id=250;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21474.839844,6.374421,14541.025391};
+					azimut=80.000000;
+					id=251;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21472.988281,6.377554,14539.061523};
+					azimut=80.000000;
+					id=252;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21474.603516,6.378992,14543.090820};
+					azimut=80.000000;
+					id=315;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21477.439453,6.367547,14542.402344};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp5==5";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21544.396484,6.230176,14275.912109};
+					placement=30.000000;
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21568.982422,4.876507,13983.609375};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21477.435547,6.367577,14542.413086};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21283.593750,6.480000,14305.319336};
+					azimut=180.000000;
+					id=253;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21280.044922,6.480000,14308.008789};
+					azimut=175.000000;
+					id=254;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21286.751953,6.480000,14308.008789};
+					azimut=175.000000;
+					id=255;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21282.179688,6.480000,14305.954102};
+					azimut=180.000000;
+					id=256;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21285.958984,6.480000,14306.903320};
+					azimut=180.000000;
+					id=257;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21284.658203,6.480000,14305.953125};
+					azimut=175.000000;
+					id=258;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21280.925781,6.480000,14306.903320};
+					azimut=180.000000;
+					id=259;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21283.640625,6.480000,14302.974609};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp5==5";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21566.039063,5.682345,14238.410156};
+					placement=30.000000;
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21289.964844,6.480000,14275.858398};
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21283.611328,6.480000,14302.965820};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item31
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={21456.773438,6.455616,15292.424805};
+					azimut=150.000000;
+					id=260;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21445.970703,6.480000,15295.045898};
+					azimut=155.000000;
+					id=261;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21451.728516,6.473781,15293.257813};
+					azimut=145.000000;
+					id=262;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21462.408203,6.450586,15296.068359};
+					azimut=155.000000;
+					id=263;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21454.148438,6.465069,15292.747070};
+					azimut=160.000000;
+					id=264;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21463.855469,6.451663,15298.112305};
+					azimut=155.000000;
+					id=265;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21460.386719,6.451468,15294.536133};
+					azimut=160.000000;
+					id=266;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item7
+				{
+					position[]={21458.833984,6.451965,15293.258789};
+					azimut=155.000000;
+					id=267;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item8
+				{
+					position[]={21449.345703,6.480000,15294.023438};
+					azimut=160.000000;
+					id=268;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21457.509766,6.452968,15290.130859};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp6==6";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21500.660156,5.798699,15196.678711};
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21476.185547,6.432866,15302.649414};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21461.427734,6.455404,15297.763672};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item32
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21525.044922,6.390000,15408.034180};
+					azimut=290.000000;
+					id=269;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21525.693359,6.390000,15405.211914};
+					azimut=305.000000;
+					id=270;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21528.191406,6.390000,15408.455078};
+					azimut=320.000000;
+					id=271;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21526.515625,6.390000,15404.020508};
+					azimut=330.000000;
+					id=306;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21525.302734,6.390000,15406.458008};
+					azimut=305.000000;
+					id=307;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21526.689453,6.390000,15408.412109};
+					azimut=310.000000;
+					id=308;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21529.736328,6.390000,15408.439453};
+					azimut=305.000000;
+					id=309;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21522.859375,6.390000,15408.482422};
+					formation="COLUMN";
+					speed="FULL";
+					expCond="wp6==6";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21461.617188,6.438180,15285.176758};
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="NORMAL";
+					combat="COMBAT";
+					expActiv="[thislist] exec ""tracking.sqs""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21442.373047,6.480000,15311.583008};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21522.812500,6.390000,15408.469727};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item33
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21539.722656,5.986845,13933.310547};
+					azimut=230.000000;
+					id=272;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					text="SN1";
+					init="SN1 SetUnitPos ""DOWN""";
+				};
+			};
+		};
+		class Item34
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21411.576172,35.659142,14822.744141};
+					azimut=275.000000;
+					id=273;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					text="SN2";
+					init="SN2 SetUnitPos ""UP""";
+				};
+			};
+		};
+		class Item35
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21259.392578,6.480000,14832.522461};
+					azimut=265.000000;
+					id=274;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					text="SN3";
+					init="SN3 SetUnitPos ""DOWN""";
+				};
+			};
+		};
+		class Item36
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21412.179688,35.659264,14957.352539};
+					azimut=245.000000;
+					id=275;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					text="SN4";
+					init="SN4 SetUnitPos ""UP""";
+				};
+			};
+		};
+		class Item37
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21096.226563,6.480000,14857.331055};
+					azimut=50.000000;
+					age="120 MIN";
+					id=279;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item38
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21424.042969,35.659264,14939.308594};
+					azimut=180.000000;
+					age="120 MIN";
+					id=280;
+					side="EAST";
+					vehicle="BAS_MilitiaPKM";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this setCaptive true; this setpos [getpos This select 0,getpos this select 1,1];";
+				};
+			};
+		};
+		class Item39
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21441.156250,35.659142,14848.178711};
+					azimut=325.000000;
+					age="120 MIN";
+					id=281;
+					side="EAST";
+					vehicle="BAS_MilitiaPKM";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this setCaptive true; this setpos [getpos This select 0,getpos this select 1,1];";
+				};
+			};
+		};
+		class Item40
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21436.673828,35.698532,14888.356445};
+					azimut=255.000000;
+					age="120 MIN";
+					id=282;
+					side="EAST";
+					vehicle="BAS_MilitiaPKM";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this setCaptive true; this setpos [getpos This select 0,getpos this select 1,1];";
+				};
+			};
+		};
+		class Item41
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={20605.664063,6.480000,16462.144531};
+					azimut=-179.699936;
+					id=283;
+					side="WEST";
+					vehicle="BAS_JDeltaTeamLeader";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.466667;
+				};
+				class Item1
+				{
+					position[]={20603.675781,6.480000,16462.148438};
+					azimut=-179.699936;
+					id=284;
+					side="WEST";
+					vehicle="BAS_JDeltaOperator";
+					rank="SERGEANT";
+					skill=0.466667;
+				};
+				class Item2
+				{
+					position[]={20605.669922,6.480000,16464.134766};
+					azimut=-179.699936;
+					id=285;
+					side="WEST";
+					vehicle="BAS_JDeltaOperatorGL";
+					rank="SERGEANT";
+					skill=0.466667;
+				};
+				class Item3
+				{
+					position[]={20603.679688,6.480000,16464.136719};
+					azimut=-179.699936;
+					id=286;
+					side="WEST";
+					vehicle="BAS_JDeltaMGunner";
+					rank="SERGEANT";
+					skill=0.466667;
+				};
+			};
+		};
+		class Item42
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={20595.802734,6.480000,16462.376953};
+					azimut=-175.823975;
+					id=287;
+					side="WEST";
+					vehicle="BAS_JDeltaTeamLeader";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.466667;
+				};
+				class Item1
+				{
+					position[]={20593.802734,6.480000,16462.521484};
+					azimut=-175.823975;
+					id=288;
+					side="WEST";
+					vehicle="BAS_JDeltaOperator";
+					rank="SERGEANT";
+					skill=0.466667;
+				};
+				class Item2
+				{
+					position[]={20595.945313,6.480000,16464.376953};
+					azimut=-175.823975;
+					id=289;
+					side="WEST";
+					vehicle="BAS_JDeltaOperatorGL";
+					rank="SERGEANT";
+					skill=0.466667;
+				};
+				class Item3
+				{
+					position[]={20593.945313,6.480000,16464.515625};
+					azimut=-175.823975;
+					id=290;
+					side="WEST";
+					vehicle="BAS_JDeltaMGunner";
+					rank="SERGEANT";
+					skill=0.466667;
+				};
+			};
+		};
+		class Item43
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21297.001953,6.480000,14814.570313};
+					id=291;
+					side="EAST";
+					vehicle="BAS_AUAZPK";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={21296.609375,6.480000,14823.291016};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21300.214844,6.480000,14943.659180};
+					type="SAD";
+					combatMode="RED";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21290.585938,6.480000,14842.554688};
+					type="SAD";
+					combatMode="RED";
+					formation="COLUMN";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={21296.537109,6.480000,14823.195313};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item44
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21129.771484,6.480000,15544.456055};
+					azimut=275.000000;
+					id=323;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21135.183594,6.480000,15541.456055};
+					azimut=285.000000;
+					id=324;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21132.001953,6.480000,15546.217773};
+					azimut=280.000000;
+					id=325;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21132.599609,6.480000,15542.555664};
+					azimut=275.000000;
+					id=326;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21134.226563,6.480000,15547.684570};
+					azimut=285.000000;
+					id=327;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21137.806641,6.480000,15540.349609};
+					azimut=270.000000;
+					id=328;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21136.138672,6.480000,15548.783203};
+					azimut=315.000000;
+					id=329;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={21124.054688,6.480000,15543.232422};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp6==6";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21042.949219,6.480000,15461.281250};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21124.039063,6.480000,15543.201172};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item45
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={20569.970703,6.480000,14733.775391};
+					id=330;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20569.611328,6.480000,14733.313477};
+					id=331;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20569.281250,6.480000,14732.904297};
+					id=332;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20570.810547,6.480000,14732.833984};
+					id=333;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20570.546875,6.480000,14733.243164};
+					id=334;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20571.169922,6.480000,14732.418945};
+					id=335;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20568.962891,6.480000,14732.423828};
+					id=336;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={20569.978516,6.480000,14735.008789};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp1==1";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20400.236328,6.480000,14794.775391};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20569.947266,6.480000,14735.007813};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item46
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={20745.183594,6.480000,14888.627930};
+					azimut=90.000000;
+					id=337;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20741.630859,6.480000,14887.236328};
+					azimut=80.000000;
+					id=338;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20742.748047,6.480000,14889.647461};
+					azimut=85.000000;
+					id=339;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20742.914063,6.480000,14887.512695};
+					azimut=110.000000;
+					id=340;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20743.837891,6.480000,14889.318359};
+					azimut=60.000000;
+					id=341;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20744.013672,6.480000,14887.914063};
+					azimut=90.000000;
+					id=342;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20741.289063,6.480000,14890.050781};
+					azimut=90.000000;
+					id=343;
+					side="EAST";
+					vehicle="BAS_RebelSoldier";
+					rank="LIEUTNANT";
+					skill=0.200000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={20747.318359,6.480000,14888.561523};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp2==2";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20739.230469,6.480000,14786.093750};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20747.316406,6.480000,14888.541992};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item47
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={20907.349609,6.480000,14845.731445};
+					azimut=265.000000;
+					id=344;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={20909.058594,6.480000,14846.836914};
+					azimut=265.000000;
+					id=345;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={20910.994141,6.480000,14847.291016};
+					azimut=255.000000;
+					id=346;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={20911.445313,6.480000,14844.797852};
+					azimut=265.000000;
+					id=347;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={20913.392578,6.480000,14847.976563};
+					azimut=270.000000;
+					id=348;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={20913.679688,6.480000,14844.578125};
+					azimut=275.000000;
+					id=349;
+					side="EAST";
+					vehicle="BAS_RebelHVYMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={20909.539063,6.480000,14845.250000};
+					azimut=265.000000;
+					id=350;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={20903.968750,6.480000,14844.929688};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp2==2";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={20802.845703,6.480000,14789.690430};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={20903.935547,6.480000,14844.898438};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item48
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21310.021484,6.480000,15022.043945};
+					azimut=165.000000;
+					id=351;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21304.593750,6.480000,15024.270508};
+					azimut=145.000000;
+					id=352;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21308.347656,6.480000,15022.664063};
+					azimut=160.000000;
+					id=353;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21310.595703,6.480000,15023.666992};
+					azimut=165.000000;
+					id=354;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21310.582031,6.480000,15025.275391};
+					azimut=160.000000;
+					id=355;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21311.052734,6.480000,15026.830078};
+					azimut=150.000000;
+					id=356;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21306.498047,6.480000,15023.467773};
+					azimut=165.000000;
+					id=357;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="CAPTAIN";
+					skill=0.200000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={21311.021484,6.480000,15020.134766};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp3==3";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21282.976563,6.480000,14835.113281};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21311.027344,6.480000,15020.136719};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item49
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21476.888672,5.947627,14952.670898};
+					id=358;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21474.207031,6.000526,14949.897461};
+					id=359;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21472.955078,6.022853,14948.538086};
+					id=360;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21476.119141,5.962420,14949.759766};
+					id=361;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21479.593750,5.893876,14949.897461};
+					id=362;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21475.566406,5.973791,14951.263672};
+					id=363;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21480.851563,5.866910,14948.764648};
+					id=364;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=0.200000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={21476.875000,5.947899,14955.632813};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp3==3";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21269.712891,6.480000,14835.614258};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21476.904297,5.947295,14955.620117};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item50
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21348.507813,6.480000,15301.848633};
+					azimut=60.000000;
+					id=365;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21346.462891,6.480000,15298.169922};
+					azimut=45.000000;
+					id=366;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21347.550781,6.480000,15299.984375};
+					azimut=50.000000;
+					id=367;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21345.878906,6.480000,15302.250000};
+					azimut=60.000000;
+					id=368;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21340.382813,6.480000,15302.029297};
+					id=369;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21344.873047,6.480000,15296.816406};
+					azimut=50.000000;
+					id=370;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21343.408203,6.480000,15302.254883};
+					azimut=35.000000;
+					id=371;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={21351.892578,6.480000,15302.772461};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp6==6";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21483.554688,6.419602,15316.861328};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21351.919922,6.480000,15302.821289};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item51
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21247.281250,6.480000,13775.552734};
+					azimut=180.000000;
+					id=372;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21251.339844,6.480000,13779.985352};
+					azimut=180.000000;
+					id=373;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21245.048828,6.480000,13777.920898};
+					azimut=185.000000;
+					id=374;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21249.208984,6.480000,13777.920898};
+					azimut=180.000000;
+					id=375;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21243.689453,6.480000,13779.987305};
+					azimut=180.000000;
+					id=376;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21253.160156,6.480000,13782.413086};
+					azimut=185.000000;
+					id=377;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21242.134766,6.480000,13782.049805};
+					azimut=180.000000;
+					id=378;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={21246.841797,6.480000,13771.229492};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp4==4";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21342.152344,6.251484,13618.262695};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21246.853516,6.480000,13771.182617};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item52
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21405.417969,6.480000,14410.003906};
+					azimut=85.000000;
+					id=379;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21401.707031,6.480000,14413.824219};
+					azimut=85.000000;
+					id=380;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21401.966797,6.480000,14406.352539};
+					azimut=85.000000;
+					id=381;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21403.748047,6.480000,14411.875977};
+					azimut=95.000000;
+					id=382;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21403.916016,6.480000,14407.635742};
+					azimut=95.000000;
+					id=383;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21399.564453,6.480000,14414.783203};
+					azimut=95.000000;
+					id=384;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21400.041016,6.480000,14405.378906};
+					azimut=60.000000;
+					id=385;
+					side="EAST";
+					vehicle="BAS_RebelRPGAPSoldier";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={21406.968750,6.480000,14409.967773};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp5==5";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21545.457031,6.187755,14325.991211};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="NORMAL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={21406.960938,6.480000,14409.985352};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item53
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20401.011719,6.480000,14772.337891};
+					id=386;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item54
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20425.380859,6.480000,14817.735352};
+					azimut=180.000000;
+					id=387;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item55
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20522.298828,6.480000,14819.540039};
+					azimut=180.000000;
+					id=388;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item56
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20510.076172,6.480000,14764.125000};
+					azimut=355.000000;
+					id=389;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item57
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20731.644531,6.480000,14835.753906};
+					azimut=180.000000;
+					id=390;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item58
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20630.976563,6.480000,14772.962891};
+					azimut=355.000000;
+					id=391;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item59
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20810.855469,6.480000,14751.161133};
+					azimut=355.000000;
+					id=392;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item60
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20845.337891,6.480000,14762.106445};
+					azimut=310.000000;
+					id=393;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item61
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20913.742188,6.480000,14749.376953};
+					azimut=310.000000;
+					id=394;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item62
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21002.757813,6.480000,14808.531250};
+					azimut=210.000000;
+					id=395;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item63
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={21049.037109,6.480000,14823.614258};
+					azimut=210.000000;
+					id=396;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item64
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={20930.601563,6.480000,14706.429688};
+					azimut=310.000000;
+					id=397;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+				};
+			};
+		};
+		class Item65
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21164.474609,6.480000,14528.587891};
+					azimut=275.000000;
+					id=398;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21169.886719,6.480000,14525.587891};
+					azimut=285.000000;
+					id=399;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21166.705078,6.480000,14530.349609};
+					azimut=280.000000;
+					id=400;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21167.302734,6.480000,14526.687500};
+					azimut=275.000000;
+					id=401;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21168.929688,6.480000,14531.816406};
+					azimut=285.000000;
+					id=402;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21172.509766,6.480000,14524.481445};
+					azimut=270.000000;
+					id=403;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21170.841797,6.480000,14532.915039};
+					azimut=315.000000;
+					id=404;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=2;
+				class Item0
+				{
+					position[]={21162.244141,6.480000,14528.601563};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp2==2";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21341.373047,6.480000,14897.810547};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item66
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21627.970703,6.214243,15335.759766};
+					azimut=275.000000;
+					id=405;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21633.382813,6.180686,15332.759766};
+					azimut=285.000000;
+					id=406;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21630.201172,6.195020,15337.521484};
+					azimut=280.000000;
+					id=407;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21630.798828,6.197305,15333.859375};
+					azimut=275.000000;
+					id=408;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21632.425781,6.176363,15338.988281};
+					azimut=285.000000;
+					id=409;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21636.005859,6.163791,15331.653320};
+					azimut=270.000000;
+					id=410;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21634.337891,6.160619,15340.086914};
+					azimut=315.000000;
+					id=411;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=2;
+				class Item0
+				{
+					position[]={21622.253906,6.257612,15334.536133};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp6==6";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21451.517578,6.474539,15284.820313};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item67
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={21063.095703,6.480000,13641.624023};
+					azimut=275.000000;
+					id=412;
+					side="EAST";
+					vehicle="BAS_RebelOfficer";
+					leader=1;
+					rank="COLONEL";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item1
+				{
+					position[]={21068.507813,6.480000,13638.624023};
+					azimut=285.000000;
+					id=413;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item2
+				{
+					position[]={21065.326172,6.480000,13643.385742};
+					azimut=280.000000;
+					id=414;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item3
+				{
+					position[]={21065.923828,6.480000,13639.723633};
+					azimut=275.000000;
+					id=415;
+					side="EAST";
+					vehicle="BAS_RebelMGunner";
+					rank="MAJOR";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item4
+				{
+					position[]={21067.550781,6.480000,13644.852539};
+					azimut=285.000000;
+					id=416;
+					side="EAST";
+					vehicle="BAS_RebelRPGSoldier";
+					rank="CAPTAIN";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item5
+				{
+					position[]={21071.130859,6.480000,13637.517578};
+					azimut=270.000000;
+					id=417;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+				class Item6
+				{
+					position[]={21069.462891,6.480000,13645.951172};
+					azimut=315.000000;
+					id=418;
+					side="EAST";
+					vehicle="BAS_RebelSniper";
+					rank="LIEUTNANT";
+					skill=1.000000;
+					init="this addeventhandler [""killed"", {_this exec ""eraser.sqs""}]  ";
+				};
+			};
+			class Waypoints
+			{
+				items=2;
+				class Item0
+				{
+					position[]={21057.378906,6.480000,13640.400391};
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					expCond="wp4==4";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={21397.072266,6.480000,13745.559570};
+					type="SAD";
+					combatMode="RED";
+					formation="LINE";
+					speed="FULL";
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=150;
+		class Item0
+		{
+			position[]={21068.509766,6.480000,13572.590820};
+			azimut=85.000000;
+			id=0;
+			side="EMPTY";
+			vehicle="BAS_47Crash";
+			skill=0.600000;
+		};
+		class Item1
+		{
+			position[]={20599.863281,6.480000,16458.660156};
+			azimut=180.000000;
+			id=1;
+			side="EMPTY";
+			vehicle="Fire";
+			skill=0.600000;
+			init="this inflame true";
+		};
+		class Item2
+		{
+			position[]={20628.916016,6.480000,16479.298828};
+			azimut=180.000000;
+			id=2;
+			side="EMPTY";
+			vehicle="MASH";
+			skill=0.600000;
+		};
+		class Item3
+		{
+			position[]={20596.269531,6.480000,16486.195313};
+			azimut=180.000000;
+			id=3;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item4
+		{
+			position[]={20599.517578,6.480000,16460.869141};
+			azimut=185.000000;
+			special="NONE";
+			id=4;
+			side="EMPTY";
+			vehicle="FlagCarrier";
+			leader=1;
+			skill=0.700000;
+			init="this SetFlagTexture ""recon1.jpg""";
+		};
+		class Item5
+		{
+			position[]={20387.257813,6.480000,14784.129883};
+			azimut=310.000000;
+			age="120 MIN";
+			id=5;
+			side="EMPTY";
+			vehicle="M113Wreck";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item6
+		{
+			position[]={19687.048828,6.480000,14792.041016};
+			azimut=180.000000;
+			id=6;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item7
+		{
+			position[]={21373.105469,6.480000,14902.553711};
+			azimut=320.000000;
+			id=7;
+			side="EMPTY";
+			vehicle="M113Wreck";
+			skill=0.600000;
+		};
+		class Item8
+		{
+			position[]={20672.355469,6.480000,16456.673828};
+			azimut=180.000000;
+			id=8;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item9
+		{
+			position[]={20664.109375,6.480000,16456.660156};
+			azimut=180.000000;
+			id=9;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item10
+		{
+			position[]={20656.027344,6.480000,16456.660156};
+			azimut=180.000000;
+			id=10;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item11
+		{
+			position[]={20647.746094,6.480000,16456.658203};
+			azimut=180.000000;
+			id=11;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item12
+		{
+			position[]={20639.625000,6.480000,16456.654297};
+			azimut=180.000000;
+			id=12;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item13
+		{
+			position[]={20631.695313,6.480000,16456.867188};
+			azimut=180.000000;
+			id=13;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item14
+		{
+			position[]={20623.074219,6.480000,16456.871094};
+			azimut=180.000000;
+			id=14;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item15
+		{
+			position[]={20589.300781,6.480000,16486.195313};
+			azimut=180.000000;
+			id=15;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item16
+		{
+			position[]={20603.234375,6.480000,16486.195313};
+			azimut=180.000000;
+			id=16;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item17
+		{
+			position[]={20610.214844,6.480000,16486.251953};
+			azimut=180.000000;
+			id=18;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item18
+		{
+			position[]={20596.269531,6.480000,16486.195313};
+			azimut=180.000000;
+			id=19;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item19
+		{
+			position[]={20589.300781,6.480000,16486.195313};
+			azimut=180.000000;
+			id=20;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item20
+		{
+			position[]={20603.234375,6.480000,16486.195313};
+			azimut=180.000000;
+			id=21;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item21
+		{
+			position[]={20610.214844,6.480000,16486.251953};
+			azimut=180.000000;
+			id=22;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item22
+		{
+			position[]={20596.265625,6.480000,16472.462891};
+			azimut=180.000000;
+			id=23;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item23
+		{
+			position[]={20589.300781,6.480000,16472.462891};
+			azimut=180.000000;
+			id=24;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item24
+		{
+			position[]={20603.234375,6.480000,16472.464844};
+			azimut=180.000000;
+			id=25;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item25
+		{
+			position[]={20610.214844,6.480000,16472.519531};
+			azimut=180.000000;
+			id=26;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item26
+		{
+			position[]={21400.388672,6.480000,14864.601563};
+			id=28;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item27
+		{
+			position[]={21400.431641,6.480000,14867.256836};
+			id=29;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item28
+		{
+			position[]={21400.451172,6.480000,14869.905273};
+			id=30;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item29
+		{
+			position[]={21400.441406,6.480000,14909.607422};
+			id=31;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item30
+		{
+			position[]={21400.480469,6.480000,14912.264648};
+			id=32;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item31
+		{
+			position[]={21400.503906,6.480000,14914.910156};
+			id=33;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item32
+		{
+			position[]={21374.035156,6.480000,14889.038086};
+			azimut=90.000000;
+			id=34;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item33
+		{
+			position[]={21376.597656,6.480000,14889.039063};
+			azimut=90.000000;
+			id=35;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item34
+		{
+			position[]={21462.710938,6.457120,15318.342773};
+			azimut=230.000000;
+			id=36;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item35
+		{
+			position[]={21459.216797,6.463410,15320.513672};
+			azimut=140.000000;
+			id=37;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item36
+		{
+			position[]={21460.998047,6.460205,15323.691406};
+			azimut=230.000000;
+			id=38;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item37
+		{
+			position[]={21459.328125,6.463210,15322.302734};
+			azimut=230.000000;
+			id=39;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item38
+		{
+			position[]={21460.734375,6.460677,15318.826172};
+			azimut=140.000000;
+			id=40;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item39
+		{
+			position[]={21464.443359,6.454003,15319.743164};
+			azimut=230.000000;
+			id=41;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item40
+		{
+			position[]={21398.164063,6.480000,14898.481445};
+			azimut=90.000000;
+			id=43;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item41
+		{
+			position[]={21397.109375,6.480000,14902.553711};
+			id=44;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item42
+		{
+			position[]={21400.492188,6.480000,14904.127930};
+			azimut=90.000000;
+			id=45;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item43
+		{
+			position[]={21398.089844,6.480000,14904.129883};
+			azimut=90.000000;
+			id=46;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item44
+		{
+			position[]={21397.113281,6.480000,14900.124023};
+			id=47;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item45
+		{
+			position[]={21400.476563,6.480000,14898.494141};
+			azimut=90.000000;
+			id=48;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item46
+		{
+			position[]={21006.773438,6.480000,15477.232422};
+			id=59;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item47
+		{
+			position[]={21006.750000,6.480000,15479.410156};
+			id=60;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item48
+		{
+			position[]={21006.769531,6.480000,15481.649414};
+			id=61;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item49
+		{
+			position[]={21012.210938,6.480000,15477.162109};
+			id=62;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item50
+		{
+			position[]={21012.187500,6.480000,15479.408203};
+			id=63;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item51
+		{
+			position[]={21012.210938,6.480000,15481.642578};
+			id=64;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item52
+		{
+			position[]={21008.437500,6.480000,15482.990234};
+			azimut=90.000000;
+			id=65;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item53
+		{
+			position[]={21010.894531,6.480000,15482.968750};
+			azimut=90.000000;
+			id=66;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item54
+		{
+			position[]={19676.929688,6.480000,14766.795898};
+			id=67;
+			side="EMPTY";
+			vehicle="M113";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item55
+		{
+			position[]={19687.689453,6.480000,14766.795898};
+			id=68;
+			side="EMPTY";
+			vehicle="M113";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item56
+		{
+			position[]={19717.787109,6.480000,14767.908203};
+			special="NONE";
+			id=69;
+			side="EMPTY";
+			vehicle="HMMWV";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item57
+		{
+			position[]={19707.921875,6.480000,14767.910156};
+			special="NONE";
+			id=70;
+			side="EMPTY";
+			vehicle="HMMWV";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item58
+		{
+			position[]={19699.851563,6.480000,14767.908203};
+			special="NONE";
+			id=71;
+			side="EMPTY";
+			vehicle="HMMWV";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item59
+		{
+			position[]={21448.810547,35.659264,14936.305664};
+			id=72;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item60
+		{
+			position[]={21440.703125,35.659264,14936.305664};
+			id=73;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item61
+		{
+			position[]={21432.441406,35.659264,14936.305664};
+			id=74;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item62
+		{
+			position[]={21424.345703,35.659264,14936.225586};
+			id=75;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item63
+		{
+			position[]={21443.935547,35.659264,14946.327148};
+			id=76;
+			side="EMPTY";
+			vehicle="Table";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item64
+		{
+			position[]={21449.671875,35.659264,14951.145508};
+			azimut=270.000000;
+			special="NONE";
+			age="120 MIN";
+			id=77;
+			side="EMPTY";
+			vehicle="GAA768";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item65
+		{
+			position[]={21447.751953,35.659264,14951.145508};
+			azimut=270.000000;
+			special="NONE";
+			age="120 MIN";
+			id=78;
+			side="EMPTY";
+			vehicle="GAA768";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item66
+		{
+			position[]={21445.832031,35.659264,14951.145508};
+			azimut=270.000000;
+			special="NONE";
+			age="120 MIN";
+			id=79;
+			side="EMPTY";
+			vehicle="GAA768";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item67
+		{
+			position[]={21443.818359,35.659264,14951.145508};
+			azimut=270.000000;
+			special="NONE";
+			age="120 MIN";
+			id=80;
+			side="EMPTY";
+			vehicle="GAA768";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item68
+		{
+			position[]={21443.933594,35.659264,14945.098633};
+			azimut=270.000000;
+			id=81;
+			side="EMPTY";
+			vehicle="ChairHangar";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item69
+		{
+			position[]={21443.931641,35.659264,14947.658203};
+			azimut=90.000000;
+			id=82;
+			side="EMPTY";
+			vehicle="ChairHangar";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item70
+		{
+			position[]={21442.589844,35.659264,14946.326172};
+			id=83;
+			side="EMPTY";
+			vehicle="ChairHangar";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item71
+		{
+			position[]={21423.771484,35.659264,14939.408203};
+			id=84;
+			side="EMPTY";
+			vehicle="ShedSmall";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item72
+		{
+			position[]={21444.814453,35.659264,14927.375000};
+			azimut=90.000000;
+			id=85;
+			side="EMPTY";
+			vehicle="Fence";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item73
+		{
+			position[]={21437.119141,35.698532,14899.603516};
+			azimut=90.000000;
+			id=86;
+			side="EMPTY";
+			vehicle="Paleta2";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item74
+		{
+			position[]={21442.884766,35.698532,14885.433594};
+			azimut=90.000000;
+			id=87;
+			side="EMPTY";
+			vehicle="Paleta2";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item75
+		{
+			position[]={21408.791016,6.480000,14828.578125};
+			azimut=90.000000;
+			id=88;
+			side="EMPTY";
+			vehicle="KEGres_Misc038";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item76
+		{
+			position[]={21431.349609,35.698532,14907.497070};
+			azimut=90.000000;
+			id=89;
+			side="EMPTY";
+			vehicle="Barrel1";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item77
+		{
+			position[]={21433.779297,35.659264,14922.620117};
+			azimut=90.000000;
+			id=90;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item78
+		{
+			position[]={21443.095703,35.698532,14892.806641};
+			azimut=90.000000;
+			id=91;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item79
+		{
+			position[]={21431.753906,35.698532,14872.500000};
+			azimut=90.000000;
+			id=92;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item80
+		{
+			position[]={21420.816406,35.698532,14899.719727};
+			azimut=90.000000;
+			id=93;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item81
+		{
+			position[]={21424.056641,35.659264,14915.707031};
+			azimut=90.000000;
+			id=94;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item82
+		{
+			position[]={21443.500000,35.698532,14909.658203};
+			azimut=90.000000;
+			id=95;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item83
+		{
+			position[]={21437.423828,35.698532,14876.820313};
+			azimut=90.000000;
+			id=96;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item84
+		{
+			position[]={21428.917969,35.698532,14884.597656};
+			azimut=90.000000;
+			id=97;
+			side="EMPTY";
+			vehicle="AAA763";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item85
+		{
+			position[]={21422.437500,35.698532,14907.065430};
+			azimut=90.000000;
+			id=98;
+			side="EMPTY";
+			vehicle="AAA763";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item86
+		{
+			position[]={21438.234375,35.698532,14912.250000};
+			azimut=90.000000;
+			id=99;
+			side="EMPTY";
+			vehicle="AAA763";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item87
+		{
+			position[]={21430.943359,35.698532,14892.806641};
+			azimut=90.000000;
+			id=100;
+			side="EMPTY";
+			vehicle="AAA763";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item88
+		{
+			position[]={19589.292969,4.309801,12681.713867};
+			azimut=180.000000;
+			id=101;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item89
+		{
+			position[]={19582.324219,4.300864,12681.713867};
+			azimut=180.000000;
+			id=102;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item90
+		{
+			position[]={19596.257813,4.276291,12681.713867};
+			azimut=180.000000;
+			id=103;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item91
+		{
+			position[]={19603.238281,4.189091,12681.770508};
+			azimut=180.000000;
+			id=104;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item92
+		{
+			position[]={19589.292969,4.309801,12681.713867};
+			azimut=180.000000;
+			id=105;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item93
+		{
+			position[]={19582.324219,4.300864,12681.713867};
+			azimut=180.000000;
+			id=106;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item94
+		{
+			position[]={19596.257813,4.276291,12681.713867};
+			azimut=180.000000;
+			id=107;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item95
+		{
+			position[]={19603.238281,4.189091,12681.770508};
+			azimut=180.000000;
+			id=108;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+		class Item96
+		{
+			position[]={19592.019531,4.350990,12687.732422};
+			azimut=180.000000;
+			id=109;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item97
+		{
+			position[]={19598.837891,4.271816,12687.699219};
+			azimut=180.000000;
+			id=110;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item98
+		{
+			position[]={19594.953125,4.311460,12686.801758};
+			azimut=185.000000;
+			special="NONE";
+			id=111;
+			side="EMPTY";
+			vehicle="FlagCarrier";
+			leader=1;
+			skill=0.700000;
+			init="this SetFlagTexture ""recon1.jpg""";
+		};
+		class Item99
+		{
+			position[]={19685.875000,6.480000,14792.083984};
+			azimut=185.000000;
+			special="NONE";
+			id=112;
+			side="EMPTY";
+			vehicle="FlagCarrier";
+			leader=1;
+			skill=0.700000;
+			init="this SetFlagTexture ""recon1.jpg""";
+		};
+		class Item100
+		{
+			position[]={19588.558594,4.656675,12715.093750};
+			id=113;
+			side="EMPTY";
+			vehicle="bas_mh6a";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+		};
+		class Item101
+		{
+			position[]={19601.130859,4.562718,12714.708984};
+			id=114;
+			side="EMPTY";
+			vehicle="bas_mh6a";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+		};
+		class Item102
+		{
+			position[]={19593.589844,4.703811,12721.992188};
+			id=115;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+		};
+		class Item103
+		{
+			position[]={19597.181641,4.671141,12721.993164};
+			id=116;
+			side="EMPTY";
+			vehicle="Barrels";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+		};
+		class Item104
+		{
+			position[]={19684.730469,6.480000,14792.158203};
+			azimut=180.000000;
+			id=117;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item105
+		{
+			position[]={20608.988281,6.480000,16452.191406};
+			azimut=180.000000;
+			id=120;
+			side="EMPTY";
+			vehicle="M60";
+			lock="LOCKED";
+			skill=0.600000;
+		};
+		class Item106
+		{
+			position[]={20610.384766,6.480000,16496.857422};
+			azimut=180.000000;
+			id=121;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item107
+		{
+			position[]={20602.138672,6.480000,16496.843750};
+			azimut=180.000000;
+			id=122;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item108
+		{
+			position[]={20594.056641,6.480000,16496.843750};
+			azimut=180.000000;
+			id=123;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item109
+		{
+			position[]={20585.775391,6.480000,16496.841797};
+			azimut=180.000000;
+			id=124;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item110
+		{
+			position[]={20577.654297,6.480000,16496.837891};
+			azimut=180.000000;
+			id=125;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item111
+		{
+			position[]={20569.724609,6.480000,16497.050781};
+			azimut=180.000000;
+			id=126;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item112
+		{
+			position[]={20561.103516,6.480000,16497.054688};
+			azimut=180.000000;
+			id=127;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item113
+		{
+			position[]={20667.498047,6.480000,16496.853516};
+			azimut=180.000000;
+			id=128;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item114
+		{
+			position[]={20659.251953,6.480000,16496.839844};
+			azimut=180.000000;
+			id=129;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item115
+		{
+			position[]={20651.169922,6.480000,16496.839844};
+			azimut=180.000000;
+			id=130;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item116
+		{
+			position[]={20642.888672,6.480000,16496.837891};
+			azimut=180.000000;
+			id=131;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item117
+		{
+			position[]={20634.767578,6.480000,16496.833984};
+			azimut=180.000000;
+			id=132;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item118
+		{
+			position[]={20626.837891,6.480000,16497.046875};
+			azimut=180.000000;
+			id=133;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item119
+		{
+			position[]={20618.216797,6.480000,16497.050781};
+			azimut=180.000000;
+			id=134;
+			side="EMPTY";
+			vehicle="WireFence";
+			skill=0.600000;
+		};
+		class Item120
+		{
+			position[]={20591.570313,6.480000,16452.623047};
+			azimut=180.000000;
+			id=135;
+			side="EMPTY";
+			vehicle="M60";
+			lock="LOCKED";
+			skill=0.600000;
+		};
+		class Item121
+		{
+			position[]={21397.800781,6.480000,14875.490234};
+			azimut=90.000000;
+			id=140;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item122
+		{
+			position[]={21396.746094,6.480000,14879.562500};
+			id=141;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item123
+		{
+			position[]={21400.128906,6.480000,14881.136719};
+			azimut=90.000000;
+			id=142;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item124
+		{
+			position[]={21397.726563,6.480000,14881.138672};
+			azimut=90.000000;
+			id=143;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item125
+		{
+			position[]={21396.750000,6.480000,14877.132813};
+			id=144;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item126
+		{
+			position[]={21400.113281,6.480000,14875.502930};
+			azimut=90.000000;
+			id=145;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item127
+		{
+			position[]={21492.507813,6.403485,15320.720703};
+			azimut=230.000000;
+			id=150;
+			side="EMPTY";
+			vehicle="MASH";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item128
+		{
+			position[]={21496.898438,6.395584,15314.274414};
+			azimut=180.000000;
+			id=151;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item129
+		{
+			position[]={21497.201172,6.395040,15313.301758};
+			azimut=180.000000;
+			id=152;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item130
+		{
+			position[]={21400.724609,20.907608,14885.120117};
+			azimut=180.000000;
+			id=153;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item131
+		{
+			position[]={21400.605469,20.907608,14893.775391};
+			azimut=180.000000;
+			id=154;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item132
+		{
+			position[]={21423.037109,35.659264,14932.010742};
+			azimut=180.000000;
+			id=155;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item133
+		{
+			position[]={20885.720703,6.480000,15815.669922};
+			azimut=340.000000;
+			id=156;
+			side="EMPTY";
+			vehicle="TruckV3SCivil";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+		};
+		class Item134
+		{
+			position[]={20895.306641,6.480000,15793.164063};
+			azimut=340.000000;
+			id=157;
+			side="EMPTY";
+			vehicle="TruckV3SCivil";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+		};
+		class Item135
+		{
+			position[]={21443.185547,6.480000,14740.576172};
+			id=172;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item136
+		{
+			position[]={21443.162109,6.480000,14742.753906};
+			id=173;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item137
+		{
+			position[]={21443.181641,6.480000,14744.993164};
+			id=174;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item138
+		{
+			position[]={21448.623047,6.480000,14740.505859};
+			id=175;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item139
+		{
+			position[]={21448.599609,6.480000,14742.751953};
+			id=176;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item140
+		{
+			position[]={21448.623047,6.480000,14744.986328};
+			id=177;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item141
+		{
+			position[]={21444.384766,6.480000,14739.218750};
+			azimut=90.000000;
+			id=178;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item142
+		{
+			position[]={21446.685547,6.480000,14739.199219};
+			azimut=90.000000;
+			id=179;
+			side="EMPTY";
+			vehicle="FenceWood";
+			leader=1;
+			skill=1.000000;
+		};
+		class Item143
+		{
+			position[]={20388.839844,6.480000,14789.501953};
+			azimut=150.000000;
+			id=180;
+			side="EMPTY";
+			vehicle="JeepWreck1";
+			skill=0.600000;
+		};
+		class Item144
+		{
+			position[]={20387.445313,6.480000,14794.254883};
+			azimut=25.000000;
+			id=181;
+			side="EMPTY";
+			vehicle="JeepWreck1";
+			skill=0.600000;
+		};
+		class Item145
+		{
+			position[]={21096.603516,6.480000,14854.321289};
+			azimut=85.000000;
+			id=276;
+			side="EMPTY";
+			vehicle="bas_uh60lwreck1";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item146
+		{
+			position[]={21097.121094,6.480000,14857.410156};
+			id=277;
+			side="EMPTY";
+			vehicle="Body";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+		};
+		class Item147
+		{
+			position[]={21097.183594,6.480000,14856.602539};
+			id=278;
+			side="EMPTY";
+			vehicle="Body";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+		};
+		class Item148
+		{
+			position[]={20812.083984,6.480000,14761.496094};
+			azimut=180.000000;
+			id=292;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+		class Item149
+		{
+			position[]={21532.351563,6.273534,14253.620117};
+			azimut=180.000000;
+			id=293;
+			side="EMPTY";
+			vehicle="BAS_deltacrate";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1.000000;
+			init="[this] exec ""crate.sqs""";
+		};
+	};
+	class Markers
+	{
+		items=18;
+		class Item0
+		{
+			position[]={21444.289063,35.698532,14891.217773};
+			name="Michael Durant";
+			text="Michael Durant";
+			type="Flag";
+			colorName="ColorRed";
+		};
+		class Item1
+		{
+			position[]={21040.525391,6.480000,13574.344727};
+			name="Delta LZ";
+			text="Delta LZ";
+			type="Flag1";
+			colorName="ColorGreen";
+		};
+		class Item2
+		{
+			position[]={20675.240234,6.480000,16446.953125};
+			name="base";
+			text="base";
+			type="End";
+			colorName="ColorGreen";
+		};
+		class Item3
+		{
+			position[]={21487.222656,6.412999,15318.017578};
+			name="Enemy Commander";
+			text="Enemy Commander";
+			type="Destroy";
+			colorName="ColorRed";
+		};
+		class Item4
+		{
+			position[]={21560.015625,5.116838,13995.276367};
+			name="Delta Attack";
+			text="Delta Attack";
+			type="Arrow";
+			colorName="ColorGreen";
+		};
+		class Item5
+		{
+			position[]={19960.736328,6.480000,14771.520508};
+			name="Rangers Attack";
+			text="Rangers Attack";
+			type="Arrow";
+			colorName="ColorGreen";
+			angle=90.000000;
+		};
+		class Item6
+		{
+			position[]={19543.412109,5.284561,12792.933594};
+			name="Delta start";
+			text="Delta start";
+			type="Start";
+		};
+		class Item7
+		{
+			position[]={21412.894531,6.480000,14987.602539};
+			name="r1_3";
+			type="Dot";
+			angle=90.000000;
+		};
+		class Item8
+		{
+			position[]={19129.164063,6.480000,14719.232422};
+			name="FREVIVE_p1";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item9
+		{
+			position[]={19127.646484,6.480000,14698.411133};
+			name="FREVIVE_p2";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item10
+		{
+			position[]={19126.130859,6.480000,14680.563477};
+			name="FREVIVE_p3";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item11
+		{
+			position[]={19124.615234,6.480000,14661.230469};
+			name="FREVIVE_p4";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item12
+		{
+			position[]={19123.097656,6.480000,14644.871094};
+			name="FREVIVE_p5";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item13
+		{
+			position[]={19161.007813,6.480000,14719.233398};
+			name="FREVIVE_p6";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item14
+		{
+			position[]={19159.492188,6.480000,14696.923828};
+			name="FREVIVE_p7";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item15
+		{
+			position[]={19157.974609,6.480000,14679.077148};
+			name="FREVIVE_p8";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item16
+		{
+			position[]={19156.457031,6.480000,14661.230469};
+			name="FREVIVE_p9";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+		class Item17
+		{
+			position[]={19154.941406,6.480000,14643.383789};
+			name="FREVIVE_p10";
+			type="Flag";
+			colorName="ColorBlue";
+			a=0.500000;
+			b=0.500000;
+		};
+	};
+	class Sensors
+	{
+		items=24;
+		class Item0
+		{
+			position[]={21492.167969,6.404098,15314.319336};
+			a=5.000000;
+			b=5.000000;
+			activationBy="GUER";
+			age="UNKNOWN";
+			text="Commander";
+			expCond="not (alive l)";
+			expActiv="""1"" ObjStatus ""DONE""";
+			class Effects
+			{
+				sound="Rus12";
+				voice="bas_af_attack2";
+				titleType="TEXT";
+				title="ENEMY COMMANDER IS DEAD - OBJECTIVE 2 ACCOMPLISHED.";
+			};
+		};
+		class Item1
+		{
+			position[]={20642.099609,6.480000,16391.281250};
+			a=200.000000;
+			b=10.000000;
+			rectangular=1;
+			activationBy="WEST";
+			type="END3";
+			age="UNKNOWN";
+			text="End mission";
+			class Effects
+			{
+				cameraEffect="AroundAndZoomINSlow";
+				cameraPosition="FRONT";
+				titleType="TEXT";
+				title="MISSION ACCOMPLISHED";
+			};
+		};
+		class Item2
+		{
+			position[]={21443.865234,35.659264,14946.364258};
+			a=5.000000;
+			b=5.000000;
+			rectangular=1;
+			activationBy="MEMBER";
+			activationType="WEST D";
+			age="UNKNOWN";
+			idVehicle=49;
+			text="Mike";
+			expActiv="""0"" ObjStatus ""DONE""; j1 setCaptive false";
+			class Effects
+			{
+				cameraPosition="FRONT";
+				sound="Eng13";
+				voice="Eng11";
+				titleType="TEXT";
+				title="MICHAEL DURANT IS FREE - OBJECTIVE 1 ACCOMPLISHED.";
+			};
+		};
+		class Item3
+		{
+			position[]={20645.113281,6.480000,16304.726563};
+			a=200.000000;
+			b=20.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			text="base";
+			expActiv="""2"" ObjStatus ""DONE""; player GroupChat "" MISSION ACCOMPLISHED """;
+			class Effects
+			{
+				sound="Eng1";
+				voice="bas_af_attack4";
+				track="myTrack1";
+				titleType="TEXT";
+				title="MISSION ACCOMPLISHED.";
+			};
+		};
+		class Item4
+		{
+			position[]={21516.888672,5.984564,14887.585938};
+			a=200.000000;
+			b=200.000000;
+			activationBy="EAST";
+			activationType="NOT PRESENT";
+			age="UNKNOWN";
+			text="Clear";
+			expActiv="player GroupChat "" IS CLEAR HERE - REGROUP.""";
+			class Effects
+			{
+				sound="Eng16";
+				voice="Eng15";
+				titleType="TEXT";
+				title="IS CLEAR HERE - REGROUP.";
+			};
+		};
+		class Item5
+		{
+			position[]={21619.722656,6.930000,14876.254883};
+			a=3000.000000;
+			b=3000.000000;
+			rectangular=1;
+			activationBy="WEST";
+			activationType="NOT PRESENT";
+			timeoutMin=10.000000;
+			timeoutMid=10.000000;
+			timeoutMax=10.000000;
+			type="END1";
+			age="UNKNOWN";
+			class Effects
+			{
+				cameraEffect="Around";
+				voice="bas_af_female8";
+				track="myTrack1";
+				titleType="TEXT";
+				title="MISSION FAILED";
+			};
+		};
+		class Item6
+		{
+			position[]={19688.029297,6.520875,14802.830078};
+			a=100.000000;
+			b=100.000000;
+			activationBy="WEST";
+			age="UNKNOWN";
+			class Effects
+			{
+				cameraEffect="AroundAndZoomINSlow";
+				cameraPosition="FRONT";
+				track="myTrack1";
+				titleType="RES";
+				title="INTRO";
+			};
+		};
+		class Item7
+		{
+			position[]={19734.564453,6.480000,14783.968750};
+			a=100.000000;
+			b=100.000000;
+			rectangular=1;
+			activationBy="WEST";
+			timeoutMin=90.000000;
+			timeoutMid=90.000000;
+			timeoutMax=90.000000;
+			age="UNKNOWN";
+			class Effects
+			{
+				track="myTrack3";
+			};
+		};
+		class Item8
+		{
+			position[]={20090.734375,6.480000,14782.623047};
+			a=20.000000;
+			b=2000.000000;
+			angle=162.224579;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			class Effects
+			{
+				track="myTrack2";
+			};
+		};
+		class Item9
+		{
+			position[]={21265.525391,19.415133,14792.414063};
+			a=20.000000;
+			b=2000.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			class Effects
+			{
+				track="myTrack2";
+			};
+		};
+		class Item10
+		{
+			position[]={20300.859375,6.480000,14791.043945};
+			a=400.000000;
+			b=10.000000;
+			angle=90.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			expActiv="wp1=1";
+			class Effects
+			{
+				voice="Eng37";
+			};
+		};
+		class Item11
+		{
+			position[]={20710.582031,6.480000,14791.043945};
+			a=800.000000;
+			b=10.000000;
+			angle=90.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			expActiv="wp2=2";
+			class Effects
+			{
+				voice="Eng37";
+			};
+		};
+		class Item12
+		{
+			position[]={21498.525391,5.431871,14839.561523};
+			a=300.000000;
+			b=300.000000;
+			angle=90.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			expActiv="wp3=3";
+			class Effects
+			{
+				voice="Eng37";
+			};
+		};
+		class Item13
+		{
+			position[]={21281.923828,6.480000,13604.835938};
+			a=800.000000;
+			b=10.000000;
+			angle=30.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			expActiv="wp4=4";
+			class Effects
+			{
+				voice="Eng37";
+			};
+		};
+		class Item14
+		{
+			position[]={21564.128906,5.752249,14172.852539};
+			a=800.000000;
+			b=10.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			expActiv="wp5=5";
+			class Effects
+			{
+				voice="Eng37";
+			};
+		};
+		class Item15
+		{
+			position[]={21464.705078,20.041718,15227.117188};
+			a=800.000000;
+			b=10.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			expActiv="wp6=6";
+			class Effects
+			{
+				voice="Eng37";
+			};
+		};
+		class Item16
+		{
+			position[]={20914.050781,6.480000,15658.065430};
+			a=800.000000;
+			b=10.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			expActiv="wp7=7";
+			class Effects
+			{
+				voice="Eng37";
+			};
+		};
+		class Item17
+		{
+			position[]={19603.722656,4.812716,12738.814453};
+			a=150.000000;
+			b=150.000000;
+			activationBy="ANY";
+			timeoutMin=21.000000;
+			timeoutMid=21.000000;
+			timeoutMax=21.000000;
+			age="UNKNOWN";
+			class Effects
+			{
+				cameraEffect="ZoomInSlow";
+				cameraPosition="FRONT";
+				titleType="RES";
+				title="INTRO1";
+			};
+		};
+		class Item18
+		{
+			position[]={21110.208984,6.480000,14864.173828};
+			a=100.000000;
+			b=100.000000;
+			activationBy="ANY";
+			timeoutMin=28.000000;
+			timeoutMid=28.000000;
+			timeoutMax=28.000000;
+			age="UNKNOWN";
+			class Effects
+			{
+				cameraEffect="ZoomInSlow";
+				cameraPosition="FRONT";
+			};
+		};
+		class Item19
+		{
+			position[]={21291.355469,6.480000,14884.784180};
+			a=100.000000;
+			b=100.000000;
+			activationBy="ANY";
+			timeoutMin=35.000000;
+			timeoutMid=35.000000;
+			timeoutMax=35.000000;
+			age="UNKNOWN";
+			class Effects
+			{
+				cameraEffect="AroundSlow";
+				cameraPosition="FRONT";
+			};
+		};
+		class Item20
+		{
+			position[]={21438.564453,35.659264,14934.653320};
+			a=20.000000;
+			b=20.000000;
+			rectangular=1;
+			activationBy="VEHICLE";
+			timeoutMin=48.000000;
+			timeoutMid=48.000000;
+			timeoutMax=48.000000;
+			age="UNKNOWN";
+			idVehicle=118;
+			class Effects
+			{
+				cameraEffect="ZoomInSlow";
+				cameraPosition="FRONT";
+				titleType="TEXT";
+				title="MICHAEL DURANT";
+			};
+		};
+		class Item21
+		{
+			position[]={21457.039063,6.462237,15297.170898};
+			a=60.000000;
+			b=60.000000;
+			rectangular=1;
+			activationBy="ANY";
+			timeoutMin=54.000000;
+			timeoutMid=54.000000;
+			timeoutMax=54.000000;
+			age="UNKNOWN";
+			class Effects
+			{
+				cameraEffect="AroundSlow";
+				cameraPosition="LEFT TOP";
+				titleType="TEXT";
+				title="ENEMY COMMANDER IS HERE.";
+			};
+		};
+		class Item22
+		{
+			position[]={20599.789063,6.480000,16457.765625};
+			a=20.000000;
+			b=20.000000;
+			rectangular=1;
+			activationBy="ANY";
+			timeoutMin=67.000000;
+			timeoutMid=67.000000;
+			timeoutMax=67.000000;
+			age="UNKNOWN";
+			class Effects
+			{
+				cameraEffect="AroundSlow";
+				cameraPosition="FRONT";
+				titleType="TEXT";
+				title="OUR BASE";
+			};
+		};
+		class Item23
+		{
+			position[]={20840.150391,17.295712,14645.949219};
+			a=20.000000;
+			b=400.000000;
+			rectangular=1;
+			activationBy="WEST";
+			age="UNKNOWN";
+			class Effects
+			{
+				track="myTrack2";
+			};
+		};
+	};
+};
+class Intro
+{
+	randomSeed=9989123;
+	class Intel
+	{
+	};
+};
+class OutroWin
+{
+	randomSeed=14369795;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=13355011;
+	class Intel
+	{
+	};
+};

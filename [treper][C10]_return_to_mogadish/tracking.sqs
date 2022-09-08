@@ -1,0 +1,21 @@
+
+_bug = _this select 0
+
+#Begin
+
+randomtarget = list triggerone call RandomSelect
+_My_man =  randomtarget
+
+?!(alive _My_man):goto "Begin"
+
+#0
+_bug doTarget _My_man
+_bug doFire _My_man
+_bug domove [((getpos _My_man select 0) + 1), ((getpos _My_man select 1) - 0),((getpos _My_man select 2) + 0)]
+
+~240
+
+
+?(alive _My_man):goto "0"
+?!(alive _My_man):goto "Begin"
+#exit

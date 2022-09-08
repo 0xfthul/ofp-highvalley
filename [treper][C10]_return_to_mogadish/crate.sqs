@@ -1,0 +1,32 @@
+_gun = _this select 0
+clearweaponcargo _gun;
+clearmagazinecargo _gun;
+
+
+
+_gun AddWeaponCargo ["BAS_JM4ACOGs", 10]
+_gun AddWeaponCargo ["BAS_JM4MKACOG", 3]
+_gun AddWeaponCargo ["BAS_JM24SWS", 2]
+_gun AddWeaponCargo ["BAS_JMP5SDAIMPOINT", 3]
+_gun AddWeaponCargo ["BAS_JM249SPW", 2]
+_gun AddWeaponCargo ["BAS_Beretta", 8]
+_gun AddWeaponCargo ["JAM_AT4Launcher", 7]
+_gun AddWeaponCargo ["G36a", 7]
+
+
+_gun AddMagazineCargo ["JAM_W556_30mag", 60]
+_gun AddMagazineCargo ["JAM_W556_30SDmag", 50]
+_gun AddMagazineCargo ["JAM_12Gauge_Shotgun_Mag", 20]
+_gun AddMagazineCargo ["JAM_W762_5mag", 27]
+_gun AddMagazineCargo ["JAM_MP5SBASDmag", 15]
+_gun AddMagazineCargo ["JAM_W556M_200mag", 25]
+_gun AddMagazineCargo ["JAM_M433grenade", 15]
+_gun AddMagazineCargo ["BAS_BerettaMag", 12]
+_gun AddMagazineCargo ["JAM_AT4Rocket", 14]
+_gun AddMagazineCargo ["handgrenade", 14]
+_gun AddMagazineCargo ["G36aMag", 50]
+
+
+
+_gun addWeaponCargo ["binocular", 10];
+

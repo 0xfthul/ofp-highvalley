@@ -1,0 +1,12 @@
+titleCut ["", "BLACK IN", 3]
+
+; precisa usar unlimited revives, pq com revives
+; limitados o frevive "se perde" (fica brotando um
+; soldado nao controlavel quando termina o numero de revives
+;FREVIVE_LIMIT = param1
+FREVIVE_LIMIT = -1
+FREVIVE_KILL_CAM = false
+
+["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10"] exec "FRevive\Start.sqs"
+
+
